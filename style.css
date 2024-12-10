@@ -1,0 +1,28 @@
+
+ body{ display: flex;
+    justify-content: center;
+    align-items: center;
+height: 100vh;
+background-size: cover;
+background-image: url(sallon.jpg);
+ }
+    ul{ width: 95%;
+        height: 95%;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: xx-large;
+        font-style: oblique;
+        color: rgb(9, 9, 9);
+        background-color: rgba(223, 235, 229, 0);
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+    }
+    li{
+        padding-top: 30PX;
+        margin-left: 40%;
+    }
+ 
+
+
+
+

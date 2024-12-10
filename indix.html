@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tourismedouar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+     
+        <UL>
+            <LI><a href="home">home</a></LI>
+            <LI><a href="menu">menu</a></LI>
+            <LI><a href="activitées">activitées</a></LI>
+
+            <li> <a href="photo">  photo  </a> </li>
+
+            <LI><a href="contacts">contacts</a></LI>
+       </ul>
+       <script>
+        
+        const images = [
+            'menu.jpg',  
+            'sallon.jpg',
+            'imlil.jpg',
+            'montagne.jpg'
+        ];
+
+        // Fonction pour changer le fond d'écran
+        function changeBackground() {
+            // Choisir une image aléatoire
+            const randomImage = images[Math.floor(Math.random() * images.length)];
+            // Appliquer cette image comme fond
+            document.body.style.backgroundImage = `url(${randomImage})`;
+        }
+
+        // Changer l'image de fond toutes les 2 secondes (500 ms)
+        setInterval(changeBackground, 1500);
+    </script>
+     
+
+   
+</body>
+</html>
